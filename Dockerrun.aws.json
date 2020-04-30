@@ -3,27 +3,27 @@
     "containerDefinitions": [
         {
             "name": "client",
-            "image": "mbhuiyan13 / multi-container-client",
+            "image": "mbhuiyan13/multi-container-client",
             "hostname": "client",
             "essential": false,
             "memory": 128
         },
         {
             "name": "server",
-            "image": "mbhuiyan13 / multi-container-server",
+            "image": "mbhuiyan13/multi-container-server",
             "hostname": "api",
             "essential": false,
             "memory": 128
         },
         {
             "name": "worker",
-            "image": "mbhuiyan13 / multi-container-worker",
+            "image": "mbhuiyan13/multi-container-worker",
             "essential": false,
             "memory": 128
         },
         {
             "name": "nginx",
-            "image": "mbhuiyan13 / multi-container-nginx",
+            "image": "mbhuiyan13/multi-container-nginx",
             "essential": true,
             "portMappings": [
                 {
